@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3006
+const port = 'https://arcoons.github.io/Portafolio/'
 app.use(express.static(__dirname + '/public'));
 
 app.set('view engine', 'ejs')
