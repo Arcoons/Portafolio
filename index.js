@@ -10,11 +10,15 @@ app.get('/clientes', (req, res) => {
    console.log(__dirname)
   })
 app.get('/', (req, res) => {
-    res.render('index',{titulo:"Pagina home cargada por render"})
+    res.render('index')
     
   })
 app.get('/portafolio', (req, res) => {
-    res.render('portafolio',{titulo:"Portafolio ",description:"este es mi portafolio de trabajos"})
+    res.render('portafolio')
+    
+  })
+app.get('/educacion', (req, res) => {
+    res.render('educacion')
     
   })
 
